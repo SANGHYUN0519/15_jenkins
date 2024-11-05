@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CalculatorController {
 
     private final CalculatorService calculatorService;
-
+    // 헬스 쪽 하는 법
     @GetMapping("/health")
     public String healthCheck() {
         return "I'm alive";
