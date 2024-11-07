@@ -18,7 +18,7 @@ public class CalculatorController {
     // 헬스 쪽 하는 법
     @GetMapping("/health")
     public String healthCheck() {
-        return "I'm alive";
+        return "agrocd sync test";
     }
 
     @GetMapping("/plus")
